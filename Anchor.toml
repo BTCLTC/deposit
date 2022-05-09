@@ -1,0 +1,20 @@
+[programs.localnet]
+deposit = "GameVSYuAQ1TqHbSXbMVPgCrijbTz2UjpqBnnenpSXAY"
+
+[programs.devnet]
+deposit = "GameVSYuAQ1TqHbSXbMVPgCrijbTz2UjpqBnnenpSXAY"
+
+[programs.mainnet]
+deposit = "GameVSYuAQ1TqHbSXbMVPgCrijbTz2UjpqBnnenpSXAY"
+
+[provider]
+# cluster = "localnet"
+# cluster = "devnet"
+cluster = "http://65.21.40.30"
+wallet = "/home/user/Solana/game/Game1CfEuicdVbM2YHBHz8Z3JVF4YAkMz9wf2XRpZ8gW.json"
+
+[owner]
+manager="/home/user/Solana/game/GameKkXYTeW7RV7AiCj5M1WEVuCH7m9WXgMaLErscnKZ.json"
+
+[scripts]
+test = "jest"
